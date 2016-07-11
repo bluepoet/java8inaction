@@ -11,7 +11,7 @@ import static java.util.Comparator.comparing;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * Created by Mac on 2016. 7. 10..
+ * Created by bluepoet on 2016. 7. 10..
  */
 public class SortExampleJunitTest {
     private List<Apple> inventory = new ArrayList<>();

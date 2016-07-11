@@ -3,7 +3,7 @@ package net.bluepoet.java8inaction.chap03
 import spock.lang.Specification
 
 /**
- * Created by Mac on 2016. 7. 10..
+ * Created by bluepoet on 2016. 7. 10..
  */
 class SortExampleSpockTest extends Specification {
     def inventory
