@@ -4,6 +4,18 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'groovy'
 
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'io.github.robwin:jgitflow-gradle-plugin:0.3.2'
+    }
+}
+
+apply plugin: 'io.github.robwin.jgitflow'
+
 sourceCompatibility = 1.8
 
 repositories {
