@@ -3,6 +3,8 @@
 
 ### Intellij ###
 *.iml
+.idea
+.gradle
 
 ### Java ###
 *.class
